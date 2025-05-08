@@ -334,3 +334,39 @@ nav {
 .about__list .section__description {
     text-align: left;
 }
+
+.portfolio {
+    background-color: var(--extra-light);
+    overflow: hidden;
+}
+
+.portfolio__header {
+    margin-bottom: 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.portfolio__image {
+    position: relative;
+    isolation: isolate;
+}
+
+.portfolio__image__content {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    transform: translateY(-50%);
+    padding-block: 1.5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 0.25rem;
+    z-index: 1;
+}
+
+.portfolio__image__content div {
+    padding-inline: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
