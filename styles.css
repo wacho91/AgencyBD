@@ -741,3 +741,13 @@ nav {
         max-width: 350px;
     }
 }
+
+@media (width > 1024px) {
+    .service__grid {
+        gap: 1.5rem;
+    }
+
+    .feedback__card {
+        padding: 2rem 1.5rem;
+    }
+}
