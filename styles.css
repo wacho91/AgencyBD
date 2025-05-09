@@ -622,3 +622,13 @@ nav {
     color: var(--text-light);
     text-align: center;
 }
+
+@media (width > 540px) {
+    .service__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
